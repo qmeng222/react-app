@@ -54,7 +54,9 @@
    - Manage state changes:
      - using **_state hooks_** in the format **_[variable, updater_function]_**
      - Note: each component instance maintains its own state (independent of each other)
-   - Pass data to components via props (making component reusable):
+   - Props (properties) make component reusable:
+     - Pass data to components via props
+     - Pass function(s) to components via props
    - Debug React apps:
 
 ## Resources

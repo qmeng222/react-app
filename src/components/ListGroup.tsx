@@ -3,13 +3,18 @@
 // import { MouseEvent } from "react";
 import { useState } from "react";
 
+// Define props (properties) for the ListGroup component:
 interface ListGroupProps {
+  // pass data to components:
   items: string[];
   heading: string;
+
+  // pass function(s) to components:
+  onSelectItem: (item: string) => void;
 }
 
 // Define a child component:
-function ListGroup({ items, heading }: ListGroupProps) {
+function ListGroup({ items, heading, onSelectItem }: ListGroupProps) {
   // (State) hook: [variable, updater_func]
   // const [name, setName] = useState("");
   const [selectedIdx, setSelectedIdx] = useState(-1);
@@ -44,6 +49,7 @@ function ListGroup({ items, heading }: ListGroupProps) {
             // onClick={handleClick}
             onClick={() => {
               setSelectedIdx(idx);
+              onSelectItem(item); // print the selected city name on console
             }}
           >
             {item}
