@@ -3,10 +3,13 @@
 // import { MouseEvent } from "react";
 import { useState } from "react";
 
-// Define a child component:
-function ListGroup() {
-  let items = ["San Francisco", "New York", "Tokyo", "London", "Paris"];
+interface ListGroupProps {
+  items: string[];
+  heading: string;
+}
 
+// Define a child component:
+function ListGroup({ items, heading }: ListGroupProps) {
   // (State) hook: [variable, updater_func]
   // const [name, setName] = useState("");
   const [selectedIdx, setSelectedIdx] = useState(-1);
@@ -21,7 +24,7 @@ function ListGroup() {
 
   return (
     <>
-      <h1>List</h1>
+      <h1>{heading}</h1>
 
       {/* Conditional rendering: */}
       {/* {getMessage()} */}

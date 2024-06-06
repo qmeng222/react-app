@@ -44,7 +44,7 @@
    - Building components:
      - Note: a React component cannot return more than one element unless wrapped all children with <div></div> or <Fragment></Fragment> or `<></>` to create a single parent element.
      - JSX expressions must have one parent element.
-   - Rendering list in markup with JSX:
+   - Render list in markup with JSX:
      - JSX (JavaScript XML) is a syntactic sugar for function calls and object creation in JavaScript.
      - In JSX, we can only use html elements or other React components.
    - Conditional rendering:
@@ -54,8 +54,8 @@
    - Manage state changes:
      - using **_state hooks_** in the format **_[variable, updater_function]_**
      - Note: each component instance maintains its own state (independent of each other)
-   - Passing input to components via props:
-   - Debugging React apps:
+   - Pass data to components via props (making component reusable):
+   - Debug React apps:
 
 ## Resources
 
