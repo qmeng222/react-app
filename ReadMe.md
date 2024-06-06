@@ -57,9 +57,15 @@
    - Props (properties) make component reusable:
      - Pass data to components via props
      - Pass function(s) to components via props
+   - State vs. props:
+     - State: data managed by a component (similar to local variables)
+     - Props: input passed to a component (similar to func arguments)
+     - Difference: State is mutable on purpose (data can change over time) while props are immutable (cannot be changed)
+     - Common: Anytime they change will re-render the component, and update the DOM accordingly.
+   - Pass a child component (`Alert.tsx`) to the root component (`App.tsx`)
    - Debug React apps:
 
 ## Resources
 
 1. [Tutorial video](https://www.youtube.com/watch?app=desktop&v=SqcY0GlETPk&ab_channel=ProgrammingwithMosh)
-2. [Bootstrap](https://getbootstrap.com/)
+2. [Bootstrap | Components](https://getbootstrap.com/)
