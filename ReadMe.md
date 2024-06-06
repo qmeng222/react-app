@@ -3,7 +3,7 @@
 ## Overview:
 
 - Description: A mini project inspired by the [React Tutorial for Beginners](https://www.youtube.com/watch?app=desktop&v=SqcY0GlETPk&ab_channel=ProgrammingwithMosh) YouTube video, designed to teach the basics of React.
-- Demo:
+- Project demo:
   ![project demo](images/)
 
 ## Setup:
