@@ -51,7 +51,9 @@
      - true && 1 -> 1
      - true && "Qingying" -> "Qingying"
      - false && "Qingying" -> false (no rendering on screen)
-   - Managing state:
+   - Manage state changes:
+     - using **_state hooks_** in the format **_[variable, updater_function]_**
+     - Note: each component instance maintains its own state (independent of each other)
    - Passing input to components via props:
    - Debugging React apps:
 

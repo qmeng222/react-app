@@ -8,6 +8,7 @@ function App() {
     <div>
       {/* Instead of writing both an opening and a closing tag, self-closing element do not have any children: */}
       <ListGroup />
+      <ListGroup />
     </div>
   );
 }
