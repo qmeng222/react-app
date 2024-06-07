@@ -63,6 +63,7 @@
      - Difference: State is mutable on purpose (data can change over time) while props are immutable (cannot be changed)
      - Common: Anytime they change will re-render the component, and update the DOM accordingly.
    - Pass a child component (`Alert.tsx`) to the root component (`App.tsx`)
+   - Pass long text or html content as a child to the component
    - Debug React apps:
 
 ## Resources

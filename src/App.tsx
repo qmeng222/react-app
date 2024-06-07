@@ -24,7 +24,11 @@ function App() {
 
     // Pass a child component and its properties to the root component:
     <div>
-      <Alert text="👋 Hello, world!" />
+      {/* <Alert text="👋 Hello, world!" /> */}
+      <Alert>Hello, world!</Alert>
+      <Alert>
+        Hello <span>World</span>
+      </Alert>
     </div>
   );
 }

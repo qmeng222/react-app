@@ -1,14 +1,16 @@
 // shortcut: "rafce" (React Arrow Function Component Export) with ES7+ React/Redux extension installed
 
-import React from "react";
+import React, { ReactNode } from "react";
 
 interface AlertProps {
-  text: string;
+  // text: string;
+  // children: string;
+  children: ReactNode;
 }
 
 // const Alert = (props: AlertProps) {...} or desctructured as:
-const Alert = ({ text }: AlertProps) => {
-  return <div className="alert alert-primary">{text}</div>;
+const Alert = ({ children }: AlertProps) => {
+  return <div className="alert alert-primary">{children}</div>;
 };
 
 export default Alert;
