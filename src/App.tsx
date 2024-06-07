@@ -3,6 +3,7 @@
 // import ListGroup from "./components/ListGroup";
 
 import Alert from "./components/Alert";
+import Button from "./components/Button";
 
 // Create the top level component (root) following Pascal Casing:
 function App() {
@@ -29,6 +30,9 @@ function App() {
       <Alert>
         Hello <span>World</span>
       </Alert>
+      <Button color="primary" onClick={() => console.log("Clicked!")}>
+        My Button
+      </Button>
     </div>
   );
 }
