@@ -76,6 +76,18 @@
   - View component source code:
     ![view comp source code](images/view-source-code.png)
 
+## Quick reviews:
+
+1. React **_components_** are the building blocks of React applications. They are **_reusable_** pieces of code that use properties (props) to receive data and functions.
+2. The **_component tree_** is a hierarchical structure that represents how components are composed together in a React application.
+3. **_React's rendering mechanism_**: React uses a virtual DOM to efficiently update the actual DOM. When a component's state or props change, React creates a new virtual DOM tree and compares it with the previous one. It then calculates the minimal set of changes required and applies those changes to the actual DOM, a process known as reconciliation. This approach makes updates faster and more efficient compared to directly manipulating the DOM.
+4. State vs. props:
+   - State: data managed by a component (similar to local variables)
+   - Props: input passed to a component (similar to func arguments)
+   - Difference: State is mutable on purpose (data can change over time) while props are immutable (cannot be changed)
+   - Common: Anytime they change will re-render the component, and update the DOM accordingly.
+5. JSX is a syntax extension for JavaScript that allows developers to write HTML-like code within JavaScript files. Components decide what to render based on their state and props.
+
 ## Resources
 
 1. [Tutorial video](https://www.youtube.com/watch?app=desktop&v=SqcY0GlETPk&ab_channel=ProgrammingwithMosh)
