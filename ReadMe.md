@@ -64,7 +64,17 @@
      - Common: Anytime they change will re-render the component, and update the DOM accordingly.
    - Pass a child component (`Alert.tsx`) to the root component (`App.tsx`)
    - Pass long text or html content as a child to the component
-   - Debug React apps:
+   - React developer tools:
+
+- React dev tools:
+  - View component tree via the React Dev Tools extension:
+    ![view comp tree](images/comp-tree.png)
+  - Search a component:
+    ![search a comp](images/search-comp.png)
+  - Inspect matching DOM element:
+    ![inspect matching DOM elmt](images/inspect-elmt.png)
+  - View component source code:
+    ![view comp source code](images/view-source-code.png)
 
 ## Resources
 
