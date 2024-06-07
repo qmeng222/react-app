@@ -34,7 +34,9 @@ function App() {
 
       {/* Show a dismissable alert only after the button is clicked (sets alertVisible to true): */}
       {alertVisible && (
-        <Alert onClose={() => setAlertVisibility(false)}>My alert</Alert>
+        <Alert onClose={() => setAlertVisibility(false)}>
+          This is a dismissable alert.
+        </Alert>
       )}
       <Button color="primary" onClick={() => setAlertVisibility(true)}>
         My Button
