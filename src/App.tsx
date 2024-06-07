@@ -27,15 +27,17 @@ function App() {
       />
 
       {/* <Alert text="👋 Hello, world!" /> */}
-      <Alert>Hello, world!</Alert>
+      <Alert>This is a simple string alert.</Alert>
       <Alert>
-        HELLO, <span>WORLD!</span>
+        This alert contains a combination of text and an{" "}
+        <span>HTML element.</span>
       </Alert>
 
       {/* Show a dismissable alert only after the button is clicked (sets alertVisible to true): */}
       {alertVisible && (
         <Alert onClose={() => setAlertVisibility(false)}>
-          This is a dismissable alert.
+          This is a DISMISSABLE alert that appears only after the button is
+          clicked.
         </Alert>
       )}
       <Button color="primary" onClick={() => setAlertVisibility(true)}>
