@@ -3,8 +3,8 @@
 ## Overview
 
 - Description: A mini project inspired by the [React Tutorial for Beginners](https://www.youtube.com/watch?app=desktop&v=SqcY0GlETPk&ab_channel=ProgrammingwithMosh) YouTube video, designed to teach the basics of React.
-- Project demo:
-  ![project demo](images/)
+- Component tree:
+  ![comp tree](images/component-tree.png)
 
 ## Setup
 
@@ -68,7 +68,7 @@
 
 - React dev tools:
   - View component tree via the React Dev Tools extension:
-    ![view comp tree](images/comp-tree.png)
+    ![view comp tree](images/view-comp-tree.png)
   - Search a component:
     ![search a comp](images/search-comp.png)
   - Inspect matching DOM element:
@@ -80,3 +80,4 @@
 
 1. [Tutorial video](https://www.youtube.com/watch?app=desktop&v=SqcY0GlETPk&ab_channel=ProgrammingwithMosh)
 2. [Bootstrap | Components](https://getbootstrap.com/)
+3. [Bootstrap | dismiss an alert](https://getbootstrap.com/docs/5.3/components/alerts/#dismissing)

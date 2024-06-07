@@ -6,11 +6,25 @@ interface AlertProps {
   // text: string;
   // children: string;
   children: ReactNode;
+
+  // function(s):
+  onClose?: () => void; // make the onClose prop optional
 }
 
 // const Alert = (props: AlertProps) {...} or desctructured as:
-const Alert = ({ children }: AlertProps) => {
-  return <div className="alert alert-primary">{children}</div>;
+const Alert = ({ children, onClose }: AlertProps) => {
+  return (
+    <div className="alert alert-primary alert-dismissible">
+      {children}
+      <button
+        type="button"
+        className="btn-close"
+        data-bs-dismiss="alert"
+        aria-label="Close"
+        onClick={onClose}
+      ></button>
+    </div>
+  );
 };
 
 export default Alert;
