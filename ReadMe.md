@@ -34,11 +34,10 @@
    - Then it compares the current version of virtual DOM with the previous version to identify the nodes that should be updated in the actual DOM.
    - Updating the DOM is done by React DOM (the companion library).
 
-2. Library (React) vs. framework?
+2. Framework vs. library (React)?
 
-   - Library: a tool that provides specific functionality
-     - React: a library/tool for creating dynamic and interactive UIs (user interfaces)
-   - Framework: **_a set of tools and guidelines_** for building apps
+   - Framework is a comprehensive set of tools and components that provides a structure and often enforces certain patterns and best practices.You build your application around the framework (eg: React for front-end development) -> house structure with a predefined layout
+   - Library is a collection of pre-written code that you can use to perform common tasks. Unlike a framework, a library doesn't dictate the structure of your application. You call the library's code from your application. -> a toolbox
 
 3. React ecosystem:
    - Building components:
